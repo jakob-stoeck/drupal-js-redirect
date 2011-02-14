@@ -1,4 +1,4 @@
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
 	// redirect javascript clients to a richer page
 	if(Drupal.settings.js_redirect.mapping.length > 0) {
 		var equalOp = '';
