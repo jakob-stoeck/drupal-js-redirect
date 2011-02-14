@@ -1,0 +1,4 @@
+; $Id$
+name = JS Redirect
+description = "Show JavaScript-enabled pages to clients which support them. Lets other clients (such es search engines) see the normal HTML pages."
+core = 6.x
