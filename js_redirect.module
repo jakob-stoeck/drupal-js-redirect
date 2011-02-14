@@ -20,7 +20,7 @@ EOD;
 		'#cols' => 90,
 		'#rows' => 25,
 		'#default_value' => variable_get('js_redirect_mapping', $default),
-		'#description' => t('Put all your link mappings in here in the form %default (JSON)', array(
+		'#description' => t('Put all your link mappings in here in the form %default (JSON). Possible values for "type" are: "is equal", "not equal", "starts with", "ends with" and "contains".', array(
 			'%default' => $default
 		)),
 	);
